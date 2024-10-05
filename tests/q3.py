@@ -20,7 +20,7 @@ test = {
           >>> # Hint: Your expression should start like this:
           >>> #   also_roughly_e = (1 + 1/n)...
           >>> np.isclose(round(1 / (also_roughly_e**(1/n) - 1), 2), round(n, 2))
-          True
+          np.True_
           """,
           'hidden': False,
           'locked': False
